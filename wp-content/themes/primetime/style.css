@@ -1,0 +1,11 @@
+/*   
+Theme Name: Primetime
+Description: A Child Theme of Onepress
+Template: onepress
+*/
+@import url(../onepress/style.css)
+
+.backstretch img {
+	height: 500px !important;
+	width: auto !important;
+}
