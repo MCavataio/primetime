@@ -45,10 +45,13 @@ if ( $is_parallax ) {
 
 ?>
 <?php if ( ! $onepress_hero_disable && ! empty ( $images ) ) : ?>
-	<section id="<?php if ( $onepress_hero_id != '' ){ echo esc_attr( $onepress_hero_id ); } ?>" <?php if ( ! empty ( $images) && ! $is_parallax ) { ?> data-images="<?php echo esc_attr( json_encode( $images ) ); ?>"<?php } ?>
-             class="hero-slideshow-wrapper <?php echo ( $onepress_hero_fullscreen == 1 ) ? 'hero-slideshow-fullscreen' : 'hero-slideshow-normal'; ?>">
+	<!--  -->
+    <section id="header_logo">
+    	<div class="hero"> 
+    		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/primetime_logo.png">
+    	</div>
 
-        <div class="sk-cube-grid ">
+     <!--    <div class="sk-cube-grid ">
             <div class="sk-cube sk-cube1"></div>
             <div class="sk-cube sk-cube2"></div>
             <div class="sk-cube sk-cube3"></div>
@@ -59,7 +62,7 @@ if ( $is_parallax ) {
             <div class="sk-cube sk-cube8"></div>
             <div class="sk-cube sk-cube9"></div>
         </div>
-
+ -->
         <?php
 		$layout = get_theme_mod( 'onepress_hero_layout', 1 );
 		switch( $layout ) {
@@ -90,7 +93,7 @@ if ( $is_parallax ) {
                 $btn_1_style = get_theme_mod( 'onepress_hcl1_btn1_style', 'btn-theme-primary' );
                 $btn_2_style = get_theme_mod( 'onepress_hcl1_btn2_style', 'btn-secondary-outline' );
 				?>
-				<div class="container"<?php echo $hero_content_style; ?>>
+				<div class="container">
 					<div class="hero__content hero-content-style<?php echo esc_attr( $layout ); ?>">
 						<?php if ($hcl1_largetext != '') echo '<h2 class="hero-large-text">' . wp_kses_post($hcl1_largetext) . '</h2>'; ?>
 						<?php if ($hcl1_smalltext != '') echo '<p class="hero-small-text"> ' . wp_kses_post( $hcl1_smalltext ) . '</p>' ?>

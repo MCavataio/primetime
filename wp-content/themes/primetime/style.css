@@ -3,9 +3,24 @@ Theme Name: Primetime
 Description: A Child Theme of Onepress
 Template: onepress
 */
-@import url(../onepress/style.css)
+/*@import url(../onepress/style.css)*/
 
-.backstretch img {
-	height: 500px !important;
-	width: auto !important;
+#header_logo .hero img {
+	height: 400px;
+	width: auto;
+}
+#header_logo .hero {
+	text-align: center;
+}
+p.hero-small-text {
+	color: grey;
+}
+
+.btn.btn-secondary-outline {
+	border: 1px solid black;
+	color: black;
+}
+.btn-theme-primary {
+	background: black;
+	color: white;
 }
