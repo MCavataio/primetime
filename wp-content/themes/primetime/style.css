@@ -6,8 +6,8 @@ Template: onepress
 /*@import url(../onepress/style.css)*/
 
 #header_logo .hero img {
-	height: 400px;
-	width: auto;
+	height: auto;
+	width: 90%;
 }
 #header_logo .hero {
 	text-align: center;
@@ -23,4 +23,10 @@ p.hero-small-text {
 .btn-theme-primary {
 	background: black;
 	color: white;
+}
+
+@media (max-width: 576px) {
+	.hero-large-text div {
+		font-size: 25px;
+	}
 }
