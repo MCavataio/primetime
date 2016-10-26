@@ -33,7 +33,7 @@ define('DB_PASSWORD', getenv("DB_PASS"));
 define('DB_HOST', getenv("DB_HOST"));
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
