@@ -1,0 +1,30 @@
+[id$="tn-instagram-__i__"] .widget-top .widget-title h3,
+[id$="tn_about_widget-__i__"] .widget-top .widget-title h3,
+[id$="tn_fanpage_fb-__i__"] .widget-top .widget-title h3,
+[id$="tn_ads_widget-__i__"] .widget-top .widget-title h3,
+[id$="tn-flickr-__i__"] .widget-top .widget-title h3,
+[id$="block-post-widget-__i__"] .widget-top .widget-title h3,
+[id$="tn-twitter-widget-__i__"] .widget-top .widget-title h3,
+[id$="social-widget-__i__"] .widget-top .widget-title h3 {
+    background-color: #3B414C;
+    color: #fff;
+}
+
+[id$="footer-instagram-widget-__i__"] .widget-top .widget-title h3,
+[id$="social-footer-counter-__i__"] .widget-top .widget-title h3 {
+    background-color: #4B5465;
+    color: #fff;
+}
+
+.redux-message {
+    display: none !important;
+}
+
+#tn_gallery_post.postbox h2,
+#tn_video_post.postbox h2,
+#tn_audio_post.postbox h2,
+#tn_post_setting.postbox h2,
+#tn_page_setting.postbox h2{
+    color: #fff;
+    background-color: #3B414C;
+}
