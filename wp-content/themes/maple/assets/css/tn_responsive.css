@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1110px) and (min-width: 992px) {
+/@media only screen and (max-width: 1110px) and (min-width: 992px) {
     .tn-container {
         max-width: 992px !important;
     }
@@ -89,9 +89,9 @@
 
 @media only screen and (max-width: 767px) {
 
-    .tn-container {
-        max-width: 360px !important;
-    }
+    //.tn-container {
+      //  max-width: 360px !important;
+   // }
 
     #main-content-wrap {
         margin-top: 45px;

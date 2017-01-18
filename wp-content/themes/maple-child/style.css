@@ -36,6 +36,15 @@ div.backstretch img[style] {
 	color: white;
 }
 
-header .header-parallax-wrap {
+header#header .header-parallax-wrap {
 	height: 300px;
+}
+
+@media only screen and (max-width: 767px){
+    header#header .header-parallax-wrap {
+	height: 200px;
+    }
+}
+body {
+  background-color: white;
 }
